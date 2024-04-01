@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 1,
+    "passes": 4,
     "pending": 0,
-    "failures": 8,
-    "start": "2024-04-01T04:40:28.500Z",
-    "end": "2024-04-01T04:40:28.786Z",
-    "duration": 286
+    "failures": 5,
+    "start": "2024-04-01T05:21:16.003Z",
+    "end": "2024-04-01T05:21:16.279Z",
+    "duration": 276
   },
   "tests": [
     {
@@ -22,36 +22,21 @@
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'I will gladly take your thirty bucks.'",
-        "showDiff": true,
-        "expected": "I will gladly take your thirty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:14:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:18:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
@@ -80,7 +65,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -117,42 +102,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "charges 30 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'I will gladly take your thirty bucks.'",
-        "showDiff": true,
-        "expected": "I will gladly take your thirty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:14:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:18:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
       "duration": 0,
@@ -179,7 +128,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -217,6 +166,27 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
